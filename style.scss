@@ -44,10 +44,47 @@ body {
     border-radius: 6px;
     margin-bottom: 0.5rem;
   }
+  .img-box {
+    position: relative;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+  .img-box:after {
+    position: absolute;
+    background-color: rgba($price-color, $alpha: 0.4);
+    border-radius: 6px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    content: "";
+    height: 14rem;
+    width: 14rem;
+    display: none;
+  }
+  .img-box:hover:after {
+    display: block;
+  }
+  .view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 2;
+  }
+  .img-box:hover .view-icon {
+    display: block;
+  }
   .details {
     h1 {
       font-size: 17px;
       color: $White;
+    }
+    h1:hover {
+      color: $price-color;
+      cursor: pointer;
     }
     p {
       font-size: 14px;
@@ -94,5 +131,9 @@ body {
   }
   .author-name {
     color: $White;
+  }
+  .author-name:hover {
+    color: $price-color;
+    cursor: pointer;
   }
 }
