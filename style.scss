@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+$primary-color: hsl(215, 51%, 70%);
+$price-color: hsl(178, 100%, 50%);
+$main-BG: hsl(217, 54%, 11%);
+$card-BG: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+body {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+  background-color: $main-BG;
+}
+.attribution {
+  text-align: center;
+  color: $White;
+  a {
+    text-decoration: none;
+    font-size: small;
+    color: $primary-color;
+  }
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: cent;
+  align-items: center;
+  height: 26.5rem;
+  width: 14rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: $card-BG;
+
+  .card-img {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+  .details {
+    h1 {
+      font-size: 17px;
+      color: $White;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      color: $primary-color;
+    }
+  }
+  .pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .price {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        color: $price-color;
+        padding: 0 0.3rem;
+      }
+    }
+    .time-left {
+      color: $primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        padding: 0 0.3rem;
+      }
+    }
+  }
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid $line;
+  padding: 0.4rem 0;
+  img {
+    height: 1.5rem;
+    border: $White 1px solid;
+    border-radius: 15px;
+    margin-right: 0.8rem;
+  }
+  .author-name {
+    color: $White;
+  }
+}

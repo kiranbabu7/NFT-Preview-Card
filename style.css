@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+}
+
+.attribution {
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  text-decoration: none;
+  font-size: small;
+  color: #8bacda;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: cent;
+      -ms-flex-pack: cent;
+          justify-content: cent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 26.5rem;
+  width: 14rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #14253d;
+}
+
+.card .card-img {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.card .details h1 {
+  font-size: 17px;
+  color: white;
+}
+
+.card .details p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8bacda;
+}
+
+.card .pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .pricing .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .pricing .price p {
+  color: #00fff7;
+  padding: 0 0.3rem;
+}
+
+.card .pricing .time-left {
+  color: #8bacda;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .pricing .time-left p {
+  padding: 0 0.3rem;
+}
+
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #2f415b;
+  padding: 0.4rem 0;
+}
+
+.author img {
+  height: 1.5rem;
+  border: white 1px solid;
+  border-radius: 15px;
+  margin-right: 0.8rem;
+}
+
+.author .author-name {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
