@@ -81,6 +81,7 @@ body {
 
 .card .img-box:hover:after {
   display: block;
+  cursor: pointer;
 }
 
 .card .view-icon {
