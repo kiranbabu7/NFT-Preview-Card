@@ -139,3 +139,17 @@ body {
     cursor: pointer;
   }
 }
+
+//Mobile section
+
+@media screen and (max-width: 365px) {
+  .card {
+    height: 70%;
+    width: 80%;
+    padding: 1.5rem 0.2rem;
+
+    .details {
+      margin: 0 1.1rem;
+    }
+  }
+}

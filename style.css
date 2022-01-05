@@ -186,4 +186,15 @@ body {
   color: #00fff7;
   cursor: pointer;
 }
+
+@media screen and (max-width: 365px) {
+  .card {
+    height: 70%;
+    width: 80%;
+    padding: 1.5rem 0.2rem;
+  }
+  .card .details {
+    margin: 0 1.1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
