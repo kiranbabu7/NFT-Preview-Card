@@ -187,11 +187,24 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 415px) {
   .card {
-    height: 70%;
-    width: 80%;
-    padding: 1.5rem 0.2rem;
+    height: 75%;
+    width: 75%;
+    padding: 1.5rem 0;
+  }
+  .card .img-box {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+  .card .card-img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
   }
   .card .details {
     margin: 0 1.1rem;
